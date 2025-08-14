@@ -8,7 +8,7 @@ const ENDPOINT = "https://uselessfacts.jsph.pl/api/v2/facts/random"
 
 app.get("/", (req, res) => {
   res.send(
-    "<p>Why don't you try getting a <a href='/api/fun-fact'>fun fact?</a></p>"
+    "<p>Why don't you try getting a <a href='/api/fun-fact'>fun fact</a>?</p>"
   )
 })
 
